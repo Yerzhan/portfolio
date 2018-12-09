@@ -3,7 +3,6 @@ import stylesheet from 'styles/main.scss'
 
 import Header from './Header'
 import Menu from './Menu'
-import Contact from './Contact'
 import Footer from './Footer'
 
 class Layout extends React.Component {
@@ -38,8 +37,8 @@ class Layout extends React.Component {
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Head>
-                    <title>Next.js Starter</title>
-                    <meta name="description" content="Next.js Starter - Forty" />
+                    <title>Yerzhan Sarbassov | Personal site</title>
+                    <meta name="description" content="Yerzhan Sarbassov | Personal site | Portfolio" />
                     <link href="/static/css/skel.css" rel="stylesheet" />
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
@@ -49,7 +48,6 @@ class Layout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {this.props.children}
-                    <Contact />
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
