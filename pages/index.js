@@ -15,12 +15,12 @@ export default () => (
                             <h3>Portfolio</h3>
                             <p>Featured peaces of work</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/portfolio"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
-                            <h3>Fun Web experiments</h3>
-                            <p>Small blocks of code doing fun stuff</p>
+                            <h3>Web experiments</h3>
+                            <p>Small blocks of code doing cool stuff</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
@@ -34,21 +34,21 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
                         <header className="major">
                             <h3>Work Experience</h3>
-                            <p>Interactive diagram of work experience</p>
+                            <p>Timeline of work experience</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
                         <header className="major">
                             <h3>Skills</h3>
-                            <p>Main skills and achievements</p>
+                            <p>Interactive diagram of skills</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
                             <h3>Hobby & inspiration</h3>
-                            <p>What i like and inspire</p>
+                            <p>What I like and inspire</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
@@ -58,10 +58,7 @@ export default () => (
                         <header className="major">
                             <h2>Info</h2>
                         </header>
-                        <p>Site is made using Next.js. Main purpose is to organize all digital work.</p>
-                        <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
+                        <p>Site is made using Next.js. Main purpose is to organize all digital works.</p>
                     </div>
                 </section>
             </div>
