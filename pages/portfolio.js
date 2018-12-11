@@ -22,9 +22,7 @@ export default () => (
                 </section>
                 <section id="two" className="spotlights">
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/portfolio/smsgwicon.png" alt="smsgw" /></a>
-                        </Link>
+                        <a className="image"><img src="/static/images/portfolio/smsgwicon.png" alt="smsgw" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -46,9 +44,25 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/portfolio/accountskcell.png" alt="" /></a>
-                        </Link>
+                        <a className="image"><img src="/static/images/portfolio/tekWeb.png" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Tekweb - seflcare portal</h3>
+                                </header>
+                                <p>
+                                  This is a self-care portal. I've developed it's backend and frontend. It has some legasy functionality, so it's backend is written using Tomcat with JSP's.
+                                  I've made its redesign and implemented different usability features.
+                                  I've also created animated logo, using Airbnb's lottie library.
+                                </p>
+                                <ul className="actions">
+                                    <li><a href="https://tekweb.tekelektrik.com.tr/" className="button">Learn more</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/accountskcell.png" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -68,17 +82,68 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
-                        </Link>
+                        <a className="image"><img src="/static/images/portfolio/tekworkflow.png" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Sed nunc ligula</h3>
+                                    <h3>TekWorkflow - workflow management</h3>
                                 </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <div>
+                                  <p>This is internal workflow management application.It helps managing monthly operations and daily work support.</p>
+                                  <ul>
+                                    <li>Backend - SpringBoot.</li> 
+                                    <li>Frontend - Vaadin Framework.</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/postable.png" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Postable - unique wallpapers</h3>
+                                </header>
+                                <p>iOS application written on Swift. It uses Core Image to manipulate assets and create beautiful and unique wallpapers and background images.</p>
                                 <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
+                                    <li><a href="https://itunes.apple.com/kz/app/postable/id1121689889?mt=8" className="button">Learn more</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/furry runner.png" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Furry runner - game</h3>
+                                </header>
+                                <p>
+                                  Cross-platform endless runner game with in-app purchase.
+                                  Main character and almost all assets with animations are made by me.
+                                  Game engine - LibGDX.
+                                </p>
+                                <ul className="actions">
+                                    <li><a href="https://play.google.com/store/apps/details?id=ru.sardieri.furryrunner" className="button">Learn more</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/kcellkz.png" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Kcell.kz - mobile operator site</h3>
+                                </header>
+                                <p>
+                                  This is a site of the mobile operator.
+                                  I took part in it as a supervisor of the team from 2016. It has a custom developed CMS written on Play framework. 
+                                  The site also uses Play Framework as backend. In the frontend there are some functionality written using React.js, Vue.js, and jQuery.
+                                </p>
+                                <ul className="actions">
+                                    <li><a href="https://www.kcell.kz/" className="button">Learn more</a></li>
                                 </ul>
                             </div>
                         </div>
