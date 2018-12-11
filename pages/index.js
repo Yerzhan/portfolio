@@ -19,7 +19,7 @@ export default () => (
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
-                            <h3>Web experiments</h3>
+                            <h3>Web Experiments</h3>
                             <p>Small blocks of code doing cool stuff</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
@@ -27,7 +27,7 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
                         <header className="major">
                             <h3>Projects</h3>
-                            <p>Bigger projects with detailed implementation info</p>
+                            <p>Projects with detailed implementation info</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
@@ -47,7 +47,7 @@ export default () => (
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
-                            <h3>Hobby & inspiration</h3>
+                            <h3>Hobby & Inspiration</h3>
                             <p>What I like and inspire</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>

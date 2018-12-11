@@ -12,7 +12,7 @@ export default () => (
         </Head>
 
         <div>
-            <BannerWithProps heading="Projects" description="Bigger projects with detailed implementation info" />
+            <BannerWithProps heading="Projects" description="Projects with detailed implementation info" />
 
             <div id="main">
                 
