@@ -17,40 +17,33 @@ export default () => (
                         </header>
                         <Link href="/portfolio"><a className="link primary"></a></Link>
                     </article>
+                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                        <header className="major">
+                            <h3>Skills</h3>
+                            <p>Technologies & tools I use</p>
+                        </header>
+                        <Link href="/skills"><a className="link primary"></a></Link>
+                    </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
                             <h3>Web Experiments</h3>
                             <p>Small blocks of code doing cool stuff</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/webexperiments"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
                         <header className="major">
                             <h3>Projects</h3>
                             <p>Projects with detailed implementation info</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
-                        <header className="major">
-                            <h3>Work Experience</h3>
-                            <p>Timeline of work experience</p>
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
-                        <header className="major">
-                            <h3>Skills</h3>
-                            <p>Interactive diagram of skills</p>
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/projects"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
                         <header className="major">
                             <h3>Hobby & Inspiration</h3>
                             <p>What I like and inspire</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/hobby"><a className="link primary"></a></Link>
                     </article>
                 </section>
                 <section id="two">
