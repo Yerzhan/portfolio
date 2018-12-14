@@ -26,7 +26,7 @@ export default () => (
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
-                            <h3>Web Experiments</h3>
+                            <h3>Experiments & Hobby</h3>
                             <p>Small blocks of code doing cool stuff</p>
                         </header>
                         <Link href="/webexperiments"><a className="link primary"></a></Link>
@@ -37,13 +37,6 @@ export default () => (
                             <p>Projects with detailed implementation info</p>
                         </header>
                         <Link href="/projects"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
-                        <header className="major">
-                            <h3>Hobby & Inspiration</h3>
-                            <p>What I like and inspire</p>
-                        </header>
-                        <Link href="/hobby"><a className="link primary"></a></Link>
                     </article>
                 </section>
                 <section id="two">
