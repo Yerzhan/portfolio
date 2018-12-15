@@ -7,12 +7,12 @@ import BannerWithProps from '../components/BannerWithProps'
 export default () => (
     <Layout>
         <Head>
-            <title>Web Experiments</title>
-            <meta name="description" content="Web Exprtiments Page" />
+            <title>Experiments & Hobby</title>
+            <meta name="description" content="Experiments & Hobby Page" />
         </Head>
 
         <div>
-            <BannerWithProps heading="Web Experiments" description="Small blocks of code doing cool stuff" />
+            <BannerWithProps heading="Experiments & Hobby" description="Small blocks of code doing cool stuff" />
 
             <div id="main">
                 
