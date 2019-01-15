@@ -24,20 +24,7 @@ export default () => (
                         </header>
                         <Link href="/skills"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
-                        <header className="major">
-                            <h3>Experiments & Hobby</h3>
-                            <p>Small blocks of code doing cool stuff</p>
-                        </header>
-                        <Link href="/webexperiments"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
-                        <header className="major">
-                            <h3>Projects</h3>
-                            <p>Projects with detailed implementation info</p>
-                        </header>
-                        <Link href="/projects"><a className="link primary"></a></Link>
-                    </article>
+                    
                 </section>
                 <section id="two">
                     <div className="inner">
