@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 
 export default () => (
     <Layout>
@@ -34,6 +35,7 @@ export default () => (
                         <p>Site is made using Next.js. Main purpose is to organize all digital works.</p>
                     </div>
                 </section>
+                <Contact />
             </div>
 
         </div>
