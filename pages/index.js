@@ -10,14 +10,14 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/portfolio.jpg')`}}>
                         <header className="major">
                             <h3>Portfolio</h3>
                             <p>Featured peaces of work</p>
                         </header>
                         <Link href="/portfolio"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/skills.jpg')`}}>
                         <header className="major">
                             <h3>Skills</h3>
                             <p>Technologies & tools I use</p>
