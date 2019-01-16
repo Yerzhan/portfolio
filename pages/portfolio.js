@@ -17,7 +17,7 @@ export default () => (
             <div id="main">
                 <section id="one">
                     <div className="inner">
-                        <p>Some of the most recent or interesting projects. To learn more about other projects please go to <Link href="/projects"><a>projects page</a></Link></p>
+                        <p>Some of the most recent or interesting projects.</p>
                     </div>
                 </section>
                 <section id="two" className="spotlights">
@@ -37,9 +37,13 @@ export default () => (
                                     <li>Oracle as main DB and PostgreSQL and MongoDB in some microservices.</li>
                                     <li>Elastic search with Kibana for logging and monitoring purposes.</li>
                                     <li>Nginx as load balancer.</li>
+                                    <li>Frontend - React.js</li>
                                   </ul>
                                   <p>The product is providing REST/SOAP and SMPP API's for customer convenience.</p>
                                 </div>
+                                <ul className="actions">
+                                  <li><a href="https://www.kcell.kz/en/article/bulk-SMS" className="button">Learn more</a></li>
+                                </ul>
                             </div>
                         </div>
                     </section>
