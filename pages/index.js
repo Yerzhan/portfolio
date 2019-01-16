@@ -14,7 +14,7 @@ export default () => (
                     <article style={{backgroundImage: `url('/static/images/portfolio.jpg')`}}>
                         <header className="major">
                             <h3>Portfolio</h3>
-                            <p>Featured peaces of work</p>
+                            <p>Recent & interesting projects</p>
                         </header>
                         <Link href="/portfolio"><a className="link primary"></a></Link>
                     </article>

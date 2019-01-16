@@ -12,12 +12,12 @@ export default () => (
         </Head>
 
         <div>
-            <BannerWithProps heading="Portfolio" description="Featured peaces of work" />
+            <BannerWithProps heading="Portfolio" description="Recent & interesting projects" />
 
             <div id="main">
                 <section id="one">
                     <div className="inner">
-                        <p>Some of the most recent or interesting projects.</p>
+                        <p>Some of the most recent and interesting projects available in production. Check out my <a href="https://github.com/Yerzhan">GitHub page</a> for more projects or <a href="https://www.linkedin.com/in/yerzhan-sarbassov/">LinkedIn profile</a> for work experience information</p>
                     </div>
                 </section>
                 <section id="two" className="spotlights">
