@@ -2,7 +2,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="/" name="contact" data-netlify="true">
+                <form method="post" action="https://formspree.io/erjanster@gmail.com" name="contact">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />

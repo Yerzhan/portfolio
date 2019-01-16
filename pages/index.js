@@ -30,12 +30,11 @@ export default () => (
                 <section id="two">
                     <div className="inner">
                         <header className="major">
-                            <h2>Info</h2>
+                            <h2>Contact Me</h2>
                         </header>
-                        <p>Site is made using Next.js. Main purpose is to organize all digital works.</p>
+                        <Contact />
                     </div>
                 </section>
-                <Contact />
             </div>
 
         </div>
