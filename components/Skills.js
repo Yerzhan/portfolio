@@ -8,10 +8,6 @@ export default class Skills extends React.PureComponent {
       level: "ninja"
     },
     {
-      skill: "SpringBoot",
-      level: "expert"
-    },
-    {
       skill: "JavaScript",
       level: "expert"
     },
@@ -20,16 +16,24 @@ export default class Skills extends React.PureComponent {
       level: "advanced"
     },
     {
-      skill: "HTML",
+      skill: "Backend Development",
       level: "ninja"
     },
     {
-      skill: "CSS",
+      skill: "Frontend Development",
       level: "expert"
     },
     {
-      skill: "jQuery",
+      skill: "Web Services",
+      level: "advanced"
+    },
+    {
+      skill: "Mobile Applications",
       level: "good"
+    },
+    {
+      skill: "Software Architecture",
+      level: "expert"
     }
   ]
 
