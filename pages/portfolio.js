@@ -48,7 +48,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/tekWeb.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/tekWeb.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -66,7 +66,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/accountskcell.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/accountskcell.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -86,7 +86,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/tekworkflow.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/tekworkflow.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -103,7 +103,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/postable.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/postable.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -117,7 +117,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/furry runner.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/furry runner.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -135,7 +135,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/kcellkz.png" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/kcellkz.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
