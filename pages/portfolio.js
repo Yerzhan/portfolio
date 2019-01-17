@@ -35,7 +35,7 @@ export default () => (
                                     <li>WildFly as main backend server and some services developed using SpringBoot.</li>
                                     <li>ActiveMQ as message broker and Apache Camel for routing.</li>
                                     <li>Oracle as main DB and PostgreSQL and MongoDB in some microservices.</li>
-                                    <li>Elastic search with Kibana for logging and monitoring purposes.</li>
+                                    <li>Elasticsearch with Kibana for logging and monitoring purposes.</li>
                                     <li>Nginx as load balancer.</li>
                                     <li>Frontend - React.js</li>
                                   </ul>
@@ -124,7 +124,7 @@ export default () => (
                                     <h3>Furry runner - game</h3>
                                 </header>
                                 <p>
-                                  Cross-platform endless runner game with in-app purchase.
+                                  Cross-platform runner game with in-app purchase.
                                   Main character and almost all assets with animations are made by me.
                                   Game engine - LibGDX.
                                 </p>
