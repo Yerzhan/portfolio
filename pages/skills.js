@@ -32,7 +32,7 @@ export default () => (
                         <p>JavaScript: Node.js, Express</p>
                       </li>
                       <li><b>Frontend</b>
-                        <p>ReactJS, Vue.js, jQuery, HTML, CSS, SCSS, Vaadin, Play framework</p>
+                        <p>ReactJS, Redux, Vue.js, jQuery, HTML, CSS, SCSS, Vaadin, Play framework</p>
                       </li>
                       <li><b>Mobile</b>
                         <p>Swift, Kotlin, React Native</p>
@@ -40,7 +40,9 @@ export default () => (
                       <li><b>Storage</b>
                         <p>OracleDB, MongoDB, PostgreSQL, MySQL, Redis</p>
                       </li>
-                      
+                      <li><b>Other</b>
+                        <p>Git, Ansible, Webpack, Gradle, Firebase, Elasticsearch, Nginx, Docker, Kubernetes, Travis CI, AWS, Heroku, Netlify, ESLint, JUnit, Mockito, Jest, Enzyme</p>
+                      </li>
                     </ul>
                 </div>
               </section>
