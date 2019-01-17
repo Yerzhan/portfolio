@@ -117,7 +117,7 @@ export default () => (
                         </div>
                     </section>
                     <section>
-                        <a className="image"><img src="/static/images/portfolio/furry runner.jpg" alt="" /></a>
+                        <a className="image"><img src="/static/images/portfolio/furry-runner.jpg" alt="" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
