@@ -42,25 +42,7 @@ export default () => (
                                   <p>The product is providing REST/SOAP and SMPP API's for customer convenience.</p>
                                 </div>
                                 <ul className="actions">
-                                  <li><Link href="/portfolio/smsgw"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <a className="image"><img src="/static/images/portfolio/tekWeb.jpg" alt="" /></a>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Tekweb - seflcare portal</h3>
-                                </header>
-                                <p>
-                                  This is a self-care portal. I've developed it's backend and frontend. It has some legasy functionality, so it's backend is written using Tomcat with JSP's.
-                                  I've made its redesign and implemented different usability features.
-                                  I've also created animated logo, using Airbnb's lottie library.
-                                </p>
-                                <ul className="actions">
-                                    <li><a href="https://tekweb.tekelektrik.com.tr/" className="button">Learn more</a></li>
+                                  <li><Link href="/portfolio/smsgw"><a className="button">Details</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,6 +63,25 @@ export default () => (
                                 </div>
                                 <ul className="actions">
                                     <li><a href="https://accounts.kcell.kz/" className="button">Learn more</a></li>
+                                    <li><Link href="/portfolio/b2b"><a className="button">Details</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/tekWeb.jpg" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Tekweb - seflcare portal</h3>
+                                </header>
+                                <p>
+                                  This is a self-care portal. I've developed it's backend and frontend. It has some legasy functionality, so it's backend is written using Tomcat with JSP's.
+                                  I've made its redesign and implemented different usability features.
+                                  I've also created animated logo, using Airbnb's lottie library.
+                                </p>
+                                <ul className="actions">
+                                    <li><a href="https://tekweb.tekelektrik.com.tr/" className="button">Learn more</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -148,6 +149,38 @@ export default () => (
                                 </p>
                                 <ul className="actions">
                                     <li><a href="https://www.kcell.kz/" className="button">Learn more</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/teksis.jpg" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Teksis</h3>
+                                </header>
+                                <div>
+                                  <p>This is an internal CRM for electro energy selling company. It helps manage customer data, check invoices, send notification emails and SMS’s, make calls and other operational work. As a developer I’ve implemented integration with 3CX API to provide easy access to phone features and customer call statistics. I’ve also implemented integration with Mailgun service to provide email sending features.</p>
+                                  <p>As a head of IT department I managed the development team and took part in development of most features of the system.</p>
+                                  <p><strong>Technologies used:</strong> JavaScript, ReactJS, Redux, NodeJS, Express, REST API, MongoDB, MySQL, Apache, Jest, 3CX API, Mailgun</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/Kcell_dashboard.jpg" alt="" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Kcell customers Self-Care</h3>
+                                </header>
+                                <div>
+                                  <p>This is a self-care cabinet for customers of the mobile operator. I took part in its development as a supervisor of the team. It has phone number and tariff management functionalities. Main part of the frontend is made using React but there are some features implemented using Vue.js or jQuery. I took part in development of auto payment service and tariff calculator.</p>
+                                  <p><strong>Technologies used:</strong> Java, JavaScript, ReactJS, Vue.js, jQuery, Webpack, REST API, Redis, Docker, Nginx, Jest, JUnit, SpringBoot, PostgreSQL, Elasticsearch</p>
+                                </div>
+                                <ul className="actions">
+                                  <li><a href="https://www.kcell.kz/en/ics.security/login" className="button">Learn more</a></li>
                                 </ul>
                             </div>
                         </div>
