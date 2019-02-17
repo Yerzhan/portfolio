@@ -42,7 +42,7 @@ export default () => (
                                   <p>The product is providing REST/SOAP and SMPP API's for customer convenience.</p>
                                 </div>
                                 <ul className="actions">
-                                  <li><a href="https://www.kcell.kz/en/article/bulk-SMS" className="button">Learn more</a></li>
+                                  <li><Link href="/portfolio/smsgw"><a className="button">Learn more</a></Link></li>
                                 </ul>
                             </div>
                         </div>
