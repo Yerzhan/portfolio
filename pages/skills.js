@@ -28,11 +28,14 @@ export default () => (
                     </header>
                     <ul className="skill-tools">
                       <li><b>Backend</b> 
-                        <p>Java: Spring Boot, WildFly, Tomcat, Hibernate, ActiveMQ</p> 
-                        <p>JavaScript: Node.js, Express</p>
+                        <p>Java, Kotlin: Spring Boot, WildFly, Tomcat, Hibernate, ActiveMQ</p> 
+                        <p>JavaScript, Typescript: Node.js, Express</p>
                       </li>
                       <li><b>Frontend</b>
                         <p>ReactJS, Redux, Vue.js, jQuery, HTML, CSS, SCSS, Vaadin, Play framework</p>
+                      </li>
+                      <li><b>Testing</b>
+                        <p>JUnit, Mockito, Jest, Enzyme, React testing library</p>
                       </li>
                       <li><b>Mobile</b>
                         <p>Swift, Kotlin, React Native</p>
@@ -41,7 +44,7 @@ export default () => (
                         <p>OracleDB, MongoDB, PostgreSQL, MySQL, Redis</p>
                       </li>
                       <li><b>Other</b>
-                        <p>Git, Ansible, Webpack, Gradle, Firebase, Elasticsearch, Nginx, Docker, Kubernetes, Travis CI, AWS, Heroku, Netlify, ESLint, JUnit, Mockito, Jest, Enzyme</p>
+                        <p>Git, Ansible, AWS, Webpack, Gradle, Firebase, Elasticsearch, Nginx, Docker, Kubernetes, Travis CI, Heroku, Netlify</p>
                       </li>
                     </ul>
                 </div>

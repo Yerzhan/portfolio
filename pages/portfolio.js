@@ -22,6 +22,49 @@ export default () => (
                 </section>
                 <section id="two" className="spotlights">
                     <section>
+                        <a className="image"><img src="/static/images/portfolio/deviteasy.jpg" alt="deviteasy" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Dev IT easy</h3>
+                                </header>
+                                <div>
+                                  <p>Website and YouTube channel where I share knowledge about Sofware Development and explain IT related topics in an easy way.</p>
+                                  <p>I like Blender and try to use it to create simple animations that can be more intuitive to understand comlex topics.</p>
+                                  <p>Website is built using Gatsby and deployed to Netlify</p>
+                                </div>
+                                <ul className="actions">
+                                  <li><Link href="https://www.deviteasy.xyz/"><a className="button">Learn more</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <a className="image"><img src="/static/images/portfolio/salv.jpg" alt="salv" /></a>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major">
+                                    <h3>Salv</h3>
+                                </header>
+                                <div>
+                                  <p>The flexible AML platform for beating financial crime</p>
+                                  <p>I've worked as a Full Stack Engineer and helped building transactions monitoring and sanctions screening functionalities from scratch.</p>
+                                  <p>The project is based on the following technology stack:</p>
+                                  <ul>
+                                    <li>Backend: SpringBoot with Kotlin</li>
+                                    <li>PostgreSQL Database</li>
+                                    <li>CI/CD pipeline deploying to AWS as a Docker container</li>
+                                    <li>Frontend: React JS with Typescript</li>
+                                    <li>Elasticsearch with Kibana for search and custom plugins for fuzzy results rescoring</li>
+                                  </ul>
+                                </div>
+                                <ul className="actions">
+                                  <li><Link href="https://salv.com/"><a className="button">Learn more</a></Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
                         <a className="image"><img src="/static/images/portfolio/smsgwicon.png" alt="smsgw" /></a>
                         <div className="content">
                             <div className="inner">
